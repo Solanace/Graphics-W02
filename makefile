@@ -1,4 +1,4 @@
-run: all
+run: main.c draw.c display.c
 	gcc -c main.c
 	gcc -c draw.c
 	gcc -c display.c
