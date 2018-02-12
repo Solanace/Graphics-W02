@@ -3,3 +3,7 @@ run: main.c draw.c display.c
 	gcc -c draw.c
 	gcc -c display.c
 	gcc -o main main.o draw.o display.o
+	./main
+
+clean:
+	rm *.o main lines.png
